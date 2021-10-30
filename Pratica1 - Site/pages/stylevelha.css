@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+
+button {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+}
+
+table {
+    position: absolute;
+    left: 30%;
+    background-color: black;
+}
+
+#avA {
+    position: absolute;
+    top: 22%;
+    left: 19%
+}
+
+#avV {
+    position: absolute;
+    top: 20%;
+    left: 17.5%
+}
+
+#dAvA {
+    width: 200px;
+    height: 300px;
+    top: 30%;
+    left: 6%;
+    position: absolute;
+    background-color: rgba(6, 16, 72, 0.693);
+    border-radius: 15rem;
+}
+
+#dAvV {
+    width: 200px;
+    height: 300px;
+    top: 30%;
+    left: 72.5%;
+    position: absolute;
+    background-color: rgba(197, 11, 11, 0.693);
+    border-radius: 15rem;
+}

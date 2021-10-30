@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Righteous", cursive;
+  min-height: 100vh;
+  background-color: white;
+  /*background-image: linear-gradient(180deg, #19335f 0%, #ffbbec 100%);*/
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    background-color: rgb(95, 13, 172);
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 0px;
+    top:0px;
+    text-align: center
+  }
+
+  #principal { 
+    right: 14%;
+    position: absolute;
+    top: 25%;
+    padding-left: 5%;
+  }
+
+  #principal h1{
+    font-family: cursive;
+    position: absolute;
+    top: 20%;
+    font-family: 'Fruktur', cursive;
+  }
+  
+  .card {
+    display: inline-block;
+    padding: auto;
+    border-bottom-left-radius: 15%;
+    background-color: black;
+  }
+  
+  .bt_play{
+    padding-left: 15px;
+    padding-top: 5px;
+    filter: contrast(-30);
+  }
+
+  .bt_play:hover {
+    filter: contrast(100);
+  }
+
+  .CardInfo {
+   background-color: rgb(48, 3, 110);
+   box-shadow: 2px 2px 2px 1px rgba(177, 99, 242, 0.2);
+   border-bottom-left-radius: 15%;
+   padding-left: 15px;
+   color: white;
+
+  }
+  
+  .imgJogo {
+    width: 300px;
+    height: 250px;
+    border: 2px black solid;
+  }
+  
+  footer{
+    width: 100%;
+    height: 3%;
+    position: fixed;
+    background-color: rgb(95, 13, 172);
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    text-align: center
+  }
+  
+  footer span {
+    color: wheat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+  }
+
+  #jogo object{
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    top: 10%;
+    left: 11%;
+  }
