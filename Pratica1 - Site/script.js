@@ -11,3 +11,7 @@ function pegarId(jogo){
     document.getElementById("jogo").hidden = false
     }
 }
+
+function carrega(){
+    location.reload()
+}
