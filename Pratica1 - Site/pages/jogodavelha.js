@@ -52,12 +52,15 @@ function click(pos){
     }
     troca()
     atualiza()
+    
     if(checa()){
         if(qmGanhou == 'X'){
             alert("Parabéns jogador X!")
         }else{
             alert("Parabéns jogador O!")
         }
+        setTimeout(() => { console.log("World!"); }, 500);
+        location.reload()
     }
 }
 
@@ -82,8 +85,9 @@ function checa(){
             return true
         }
     }
-    if((posicoes[1] == posicoes[5] && posicoes[1] == posicoes[9])&& posicoes[1] != ''){
-        if(posicoes[e] == 'X'){
+
+    if((posicoes[1] == posicoes[5] && posicoes[1] == posicoes[9]) && posicoes[1] != ''){
+        if(posicoes[1] == 'X'){
             qmGanhou = 'X'
         }else{
            qmGanhou = 'O'
@@ -91,7 +95,7 @@ function checa(){
         return true
     }
     if((posicoes[3] == posicoes[5] && posicoes[3] == posicoes[7])&& posicoes[3] != ''){
-        if(posicoes[e] == 'X'){
+        if(posicoes[3] == 'X'){
             qmGanhou = 'X'
         }else{
            qmGanhou = 'O'
