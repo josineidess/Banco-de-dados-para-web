@@ -11,7 +11,7 @@
   </head>
   <body>
     <nav>
-      <a href="#" onclick="carrega()" target="Home"><img alt="Home" src="./images/botao-home.ico"></a>
+      <a href="index.php" onclick="carrega()" target="Home"><img alt="Home" src="./images/botao-home.ico"></a>
     </nav>
     
     <div id="principal">
