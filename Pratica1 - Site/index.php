@@ -13,7 +13,9 @@
     <nav>
       <a href="index.php" onclick="carrega()" target="Home"><img alt="Home" src="./images/botao-home.ico"></a>
     </nav>
-    
+    <?php
+      echo "Teste...";
+    ?>
     <div id="principal">
         <div class="card"><img class="imgJogo" src="./images/tictactoe2.png" /><div class="CardInfo"><h4>Tic Tac Toe </h4><img class="bt_play" onclick="pegarId(1)" src="./images/botao-play.png" /><p>O conhecido jogo da velha</p></div></div>
         <div style="opacity: 0.7;" class="card"><img class="imgJogo" src="./images/foca.png" /><div class="CardInfo"><h4>Forca<span style="font-family: arial;color:red;font-size: 14px;"> (Em breve)</span></h4><img class="bt_play" onclick="pegarId(2)" src="./images/botao-play.png" /><p>Tente fugir da Forca</p><img /></div></div>
