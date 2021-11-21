@@ -1,0 +1,2 @@
+select id as id, password as password, MD5(password) as MD5
+from account;
